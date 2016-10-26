@@ -1,5 +1,5 @@
 #pronyu-quick
-![splash](https://github.com/nat-chan/pronyu-quick/wiki/splash.png)
+![splash](https://github.com/nat-chan/pronyu-quick/wiki/splash50.png)
 
 プログラミング入門でJava言語の課題を出されたとき、素早くはじめたいですね。  
 まだファイルが作成されてない状態で`vim Hoge.java`と打つとHogeクラスのテンプレートが入力され、
@@ -28,6 +28,11 @@ repo = 'nat-chan/pronyu-quick'
 ```vim
 :call dein#update(["pronyu-quick"])
 ```
+まだNeoBundleを使ってる人は以下の通り
+```vim:~/.vimrc
+NeoBundle 'Shougo/unite.vim'
+```
+
 ###よくわからないんだが...て人は
 このリポジトリのftdetect/JavaTemplate.vimをあなたの環境の~/.vim/ftdetect/
 にコピーするだけで動きます。  
