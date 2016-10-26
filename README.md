@@ -12,7 +12,7 @@
 ##How to install
 ###Vimmer向け
 パッケージマネージャにdein.vimを使っている人は次のようにインストールできます。
-```vim:~/.vimrc
+```~/.vimrc
 call dein#begin({path to plugin base path directory})
 ...
 call dein#add('nat-chan/pronyu-quick')
@@ -20,7 +20,7 @@ call dein#add('nat-chan/pronyu-quick')
 call dein#end()
 ```
 プラグイン名をTOMLファイルに分けている人は次のようにしてください
-```toml:~/.vim/rc/dein.toml
+```~/.vim/rc/dein.toml
 [[plugins]]
 repo = 'nat-chan/pronyu-quick'
 ```
@@ -29,7 +29,7 @@ repo = 'nat-chan/pronyu-quick'
 :call dein#update(["pronyu-quick"])
 ```
 まだNeoBundleを使ってる人は以下の通り
-```vim:~/.vimrc
+```~/.vimrc
 NeoBundle 'Shougo/unite.vim'
 ```
 
