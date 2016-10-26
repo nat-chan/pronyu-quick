@@ -6,6 +6,9 @@
 カーソルがmain関数のインデントに自動で移ります。  
 バッファへの書き込みなので、modifiedでないなら`:q`で普通に抜けられ、ファイルも作成されません。
 
+##ScreenShot
+![animated](https://github.com/nat-chan/pronyu-quick/wiki/animated.gif)
+
 ##Requirements
 1. Vim (実体はVim scriptなのでどのような環境でも動くはずです。)
 
