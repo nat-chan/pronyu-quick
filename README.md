@@ -12,7 +12,7 @@
 ##How to install
 ###Vimmer向け
 パッケージマネージャにdein.vimを使っている人は次のようにインストールできます。
-```~/.vimrc
+```vim:~/.vimrc
 call dein#begin({path to plugin base path directory})
 ...
 call dein#add('nat-chan/pronyu-quick')
@@ -20,7 +20,7 @@ call dein#add('nat-chan/pronyu-quick')
 call dein#end()
 ```
 プラグイン名をTOMLファイルに分けている人は次のようにしてください
-```~/.vim/rc/dein.toml
+```toml:~/.vim/rc/dein.toml
 [[plugins]]
 repo = 'nat-chan/pronyu-quick'
 ```
@@ -29,7 +29,7 @@ repo = 'nat-chan/pronyu-quick'
 :call dein#update(["pronyu-quick"])
 ```
 まだNeoBundleを使ってる人は以下の通り
-```~/.vimrc
+```vim:~/.vimrc
 NeoBundle 'Shougo/unite.vim'
 ```
 
@@ -38,8 +38,8 @@ NeoBundle 'Shougo/unite.vim'
 にコピーするだけで動きます。  
 ターミナルを開いて以下のコマンドを打ってください。
 ```bash
-git clone https://github.com/nat-chan/pronyu-quick.git
-mkdir -p ~/.vim/ftdetect/
-cp pronyu-quick/ftdetect/JavaTemplate.vim ~/.vim/ftdetect/
-rm -rf pronyu-quick
+$ git clone https://github.com/nat-chan/pronyu-quick.git
+$ mkdir -p ~/.vim/ftdetect/
+$ cp pronyu-quick/ftdetect/JavaTemplate.vim ~/.vim/ftdetect/
+$ rm -rf pronyu-quick
 ```
