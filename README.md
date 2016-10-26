@@ -26,11 +26,11 @@ repo = 'nat-chan/pronyu-quick'
 ```
 アップデートは次のように出来ます。
 ```vim
-:call dein#update(["pronyu-quick"])
+:call dein#update(['pronyu-quick'])
 ```
 まだNeoBundleを使ってる人は以下の通り
 ```vim:~/.vimrc
-NeoBundle 'Shougo/unite.vim'
+NeoBundle 'pronyu-quick'
 ```
 
 ###よくわからないんだが...て人は
